@@ -37,6 +37,10 @@ def fibonacci(limit):
     while a < limit:
         yield a
         a, b = b, a + b
+        """
+        a=b
+        b=a+b
+        """
 
 for num in fibonacci(10):
     print(num)

@@ -1,4 +1,4 @@
-#Lambda -> Funciones anonimas indicamos entrada y salida  ej:  nombre=lambda x:x+1 
+#Lambda -> Funciones anonimas indicamos entrada y salida  ej:  nombre= lambda x:x+1 
 #                                                                      Entrada:Salida                                
 def pedir_numeros():
     a=float(input("Ingresa un número-> "))
